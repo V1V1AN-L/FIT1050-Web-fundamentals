@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="main_section.css">
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex,nofollow">
+    <title>Happy Hut Restaurant</title>
+    <link rel="icon" href="img/favicon.ico">
+</head>
+<body>
+<!-- ============================================ -->
+<!--                 Navigation                   -->
+<!-- ============================================ -->
+
+<header id="cs-navigation">
+    <div class="cs-container">
+        <!--Nav Logo-->
+        <a href="" class="cs-logo" aria-label="back to home">
+            <img src="./img/logo.png" alt="logo" width="210" height="29" aria-hidden="true" decoding="async">
+        </a>
+        <!--Navigation List-->
+        <nav class="cs-nav" role="navigation">
+            <!--Mobile Nav Toggle-->
+            <button class="cs-toggle" aria-label="mobile menu toggle">
+                <div class="cs-box" aria-hidden="true">
+                    <span class="cs-line cs-line1" aria-hidden="true"></span>
+                    <span class="cs-line cs-line2" aria-hidden="true"></span>
+                    <span class="cs-line cs-line3" aria-hidden="true"></span>
+                </div>
+            </button>
+            <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+            <div class="cs-ul-wrapper">
+                <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link cs-active">
+                            Home
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Services
+                        </a>
+                    </li>
+                    <li class="cs-li">
+                        <a href="" class="cs-li-link">
+                            Menu
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <a href="" class="cs-button-solid cs-nav-button">Contact Us</a>
+        <!--Dark Mode toggle, uncomment button code if you want to enable a dark mode toggle-->
+        <!-- <button id="dark-mode-toggle" aria-label="dark mode toggle">
+            <svg class="cs-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" style="enable-background:new 0 0 480 480" xml:space="preserve"><path d="M459.782 347.328c-4.288-5.28-11.488-7.232-17.824-4.96-17.76 6.368-37.024 9.632-57.312 9.632-97.056 0-176-78.976-176-176 0-58.4 28.832-112.768 77.12-145.472 5.472-3.712 8.096-10.4 6.624-16.832S285.638 2.4 279.078 1.44C271.59.352 264.134 0 256.646 0c-132.352 0-240 107.648-240 240s107.648 240 240 240c84 0 160.416-42.688 204.352-114.176 3.552-5.792 3.04-13.184-1.216-18.496z"/></svg>
+            <img class="cs-sun" aria-hidden="true" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons%2Fsun.svg" decoding="async" alt="moon" width="15" height="15">
+        </button> -->
+    </div>
+</header>
+
+<!-- ============================================ -->
+<!--                    Hero                      -->
+<!-- ============================================ -->
+
+<section id="hero-998">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Welcome to</span>
+            <!--Logo-->
+            <picture class="cs-logo">
+<!--                <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero/food-logo.svg">-->
+<!--                <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero/food-logo.svg">-->
+<!--                <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero/food-logo.svg" alt="Stitch Hut Restaurant" width="614" height="166">-->
+            </picture>
+            <h1 class="cs-title" style="color: white;">Happy Hut Restaurant</h1>
+            <p class="cs-text">
+                Truly Authentic Pinoy Food
+                
+            </p>
+            <a href="" class="cs-button-solid">Reserve Your Table</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <!--Image is also set as background image in CSS at 1400px for parallax effect-->
+    <picture class="cs-background">
+        <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero/table-m.jpg">
+        <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero/table.jpg">
+        <img decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Hero/table.jpg" alt="logo" width="1920" height="1000">
+
+
+    </picture>
+</section>
+
+
+<!-- ============================================ -->
+<!--                    Menu                      -->
+<!-- ============================================ -->
+
+<section id="menu-1001">
+    <div class="cs-container">
+        <div class="cs-content">
+            <picture class="cs-wrapper" aria-hidden="true">
+                <img class="cs-decal" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Food-Menu/decal1.svg" decoding="async" alt="decal" width="181" height="36">
+            </picture>
+            <h2 class="cs-title">Our Specials</h2>
+            <p class="cs-text">
+                Happy Hut is the one-stop shop for all your needs. From food order services to All-Filipino groceries! All meals on our Lunch Specials and Party Orders are cooked fresh daily or when ordered, so rest assured your meals are not stale or old when served. With Happy Hut’s wide array of services, it is definitely your home shop away from home.            </p>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture"  aria-hidden="true">
+                    <source media="(max-width: 600px)" srcset="./img/food_image08-295x300.jpg">
+                    <source media="(min-width: 601px)" srcset="./img/food_image08-295x300.jpg">
+                    <img loading="lazy" decoding="async" src="./img/food_image08-295x300.jpg" alt="food" width="160" height="160">
+                </picture>
+                <div class="cs-info">
+                    <h3 class="cs-h3">
+                        <span class="cs-name">Nilagang Baka / Baboy</span>
+<!--                        <span class="cs-price">-->
+<!--                            $56-->
+<!--                        </span>-->
+                    </h3>
+                    <p class="cs-item-p">
+                        A simple dish that has different ways of preparation. Usually served during rainy and cold weather, Nilagang Baka / Baboy is a beef or pork soup composed of different vegetables such as carrots, potatoes, and cabbage.                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture"  aria-hidden="true">
+                    <source media="(max-width: 600px)" srcset="./img/food_image07-295x300.jpg">
+                    <source media="(min-width: 601px)" srcset="./img/food_image07-295x300.jpg">
+                    <img loading="lazy" decoding="async" src="./img/food_image07-295x300.jpg" alt="food" width="160" height="160">
+                </picture>
+                <div class="cs-info">
+                    <h3 class="cs-h3">
+                        <span class="cs-name">Binagoongan</span>
+<!--                        <span class="cs-price">-->
+<!--                            $56-->
+<!--                        </span>-->
+                    </h3>
+                    <p class="cs-item-p">
+                        Another Filipino favourite aside from Adobo, binagoongan is pork that is stewed and sautéed in shrimp paste, which is made from small shrimps and salt for added flavour. The dish is then garnished with slices of chili before eating.                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture"  aria-hidden="true">
+                    <source media="(max-width: 600px)" srcset="./img/food_image06-295x300.jpg">
+                    <source media="(min-width: 601px)" srcset="./img/food_image06-295x300.jpg">
+                    <img loading="lazy" decoding="async" src="./img/food_image06-295x300.jpg" alt="food" width="160" height="160">
+                </picture>
+                <div class="cs-info">
+                    <h3 class="cs-h3">
+                        <span class="cs-name">Daing na Bangus</span>
+<!--                        <span class="cs-price">-->
+<!--                            $56-->
+<!--                        </span>-->
+                    </h3>
+                    <p class="cs-item-p">
+                        Milkfish that is marinated overnight in vinegar, garlic, crushed peppercorn, and salt. Afterward, fish is fried in a pan until crispy and golden brown. Daing na Bangus is a staple on Filipino tables as it is one of the breakfast favourites.                    </p>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture"  aria-hidden="true">
+                    <source media="(max-width: 600px)" srcset="./img/food_image05-295x300.jpg">
+                    <source media="(min-width: 601px)" srcset="./img/food_image05-295x300.jpg">
+                    <img loading="lazy" decoding="async" src="./img/food_image05-295x300.jpg" alt="food" width="160" height="160">
+                </picture>
+                <div class="cs-info">
+                    <h3 class="cs-h3">
+                        <span class="cs-name">Chicken Tinola</span>
+<!--                        <span class="cs-price">-->
+<!--                            $56-->
+<!--                        </span>-->
+                    </h3>
+                    <p class="cs-item-p">
+                        An authentic Filipino dish that has chicken as the main star of the dish. Its soup is composed of onion and ginger and is often placed with green papaya wedges or chayote and chili pepper leaves.                    </p>
+                </div>
+            </li>
+
+        </ul>
+        <a href="" class="cs-button-solid">Reserve Your Table</a>
+    </div>
+    <!--Static background is in CSS as a tiled pattern-->
+</section>
+
+
+
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="RTsbs-1009">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <picture class="cs-picture">
+                <!--Desktop-->
+                <source media="(min-width: 1024px)" srcset="./img/Filipino-Features-Hero-Final-2-b785e627967843b0aa631c6a977adabe.jpg">
+                <!--Tablet-->
+                <source media="(min-width: 601px)" srcset="./img/Filipino-Features-Hero-Final-2-b785e627967843b0aa631c6a977adabe.jpg">
+                <!--Mobile-->
+                <source media="(max-width: 600px)" srcset="./img/Filipino-Features-Hero-Final-2-b785e627967843b0aa631c6a977adabe.jpg">
+                <img loading="lazy" decoding="async" src="./img/Filipino-Features-Hero-Final-2-b785e627967843b0aa631c6a977adabe.jpg" alt="adabe" width="522" height="461" aria-hidden="true">
+            </picture>
+            <img class="cs-seal" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/seal2.svg" alt="seal" width="190" height="182">
+        </div>
+        <div class="cs-content">
+            <h2 class="cs-title">Our story</h2>
+            <p class="cs-text">
+                Happy Hut is founded by the husband and wife team of Amador & Ligaya Binuya, with the purpose of letting both Filipinos and Australians experience truly Pinoy flavour.
+                <!--Creates the space between p tags on mobile-->
+            </p>
+            <a href="" class="cs-button-solid">Reserve Your Table</a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--             Side By Side Reverse             -->
+<!-- ============================================ -->
+
+<section id="RTsbsr-1009">
+    <div class="cs-container">
+        <div class="cs-image-group">
+            <picture class="cs-picture">
+                <!--Desktop-->
+                <source media="(min-width: 1024px)" srcset="./img/a-filipino-feast-86ab4772716d4839aca800b3c14e7952.jpg">
+                <!--Tablet-->
+                <source media="(min-width: 601px)" srcset="./img/a-filipino-feast-86ab4772716d4839aca800b3c14e7952.jpg">
+                <!--Mobile-->
+                <source media="(max-width: 600px)" srcset="./img/a-filipino-feast-86ab4772716d4839aca800b3c14e7952.jpg">
+                <img loading="lazy" decoding="async" src="./img/a-filipino-feast-86ab4772716d4839aca800b3c14e7952.jpg" alt="feast" width="522" height="461" aria-hidden="true">
+            </picture>
+            <img class="cs-seal" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/SideBySide/seal2.svg" alt="seal" width="190" height="182">
+        </div>
+        <div class="cs-content">
+            <h2 class="cs-title">Why Choose Us</h2>
+            <p class="cs-text">
+                Happy Hut is the only shop you need because we offer many services including Lunch Specials, Caterings, Grocery and Money Remittance.
+                <!--Creates the space between p tags on mobile-->
+                <span class="cs-spacer"></span>
+                From our delicious authentic Filipino dishes here and at home, or whip up your own meals by buying fresh imported ingredients from the Philippines. Share the love and place a smile on your guests’ faces with our catering services that have meals cooked your way!            </p>
+            <a href="" class="cs-button-solid">Reserve Your Table</a>
+        </div>
+    </div>
+</section>
+
+
+<!-- ============================================ -->
+<!--                Meet The Team                 -->
+<!-- ============================================ -->
+
+<section id="meet-us-1020">
+    <div class="cs-container">
+        <div class="cs-content">
+            <img class="cs-graphic" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Icons/Ornament.svg" alt="chef" width="456" height="31">
+            <h2 class="cs-title">Meet Our Team</h2>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    <source media="(max-width: 767px)" srcset="./img/images_portrait02-225x300.jpg">
+                    <source media="(min-width: 768px)" srcset="./img/images_portrait02-225x300.jpg">
+                    <img aria-hidden="true" loading="lazy" decoding="async" src="./img/images_portrait02-225x300.jpg" alt="chef" width="225" height="300">
+                </picture>
+                <div class="cs-info">
+                    <span class="cs-name">Amador & Ligaya Binuya </span>
+                    <span class="cs-job">Founder</span>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                Contact Form                  -->
+<!-- ============================================ -->
+
+<section id="cs-contact-242">
+    <div class="cs-container">
+        <div class="cs-content">
+            <span class="cs-topper">Let us know what you think</span>
+            <h2 class="cs-title">Contact Us</h2>
+            <p class="cs-text">
+                Order Takeaways or Party Food Orders to spice up your lunch or events. Contact us now at 03 8390 4212 or email happyhut@bigpond.com for further inquiries. We are open Tuesday to Sunday, from 10 AM till 7 PM except some public holidays.
+            </p>
+        </div>
+        <!-- Form -->
+        <form id="cs-form-242" name="Contact Form" method="post">
+            <label class="cs-label">
+                Name
+                <input class="cs-input" required type="text" id="name-242" name="name" placeholder="John/Jane Doe">
+            </label>
+            <label class="cs-label">
+                Email
+                <input class="cs-input" required type="text" id="email-242" name="email" placeholder="name@company.com">
+            </label>
+            <label class="cs-label">
+                Phone
+                <input class="cs-input" required type="text" id="phone-242" name="phone" placeholder="0400 000 000">
+            </label>
+            <label class="cs-label">
+                How Did You Find Us
+                <input class="cs-input" type="text" id="find-242" name="find-us" placeholder="Social Media, Family, Friend...">
+            </label>
+            <label class="cs-label cs-label-message">
+                Message
+                <textarea class="cs-input cs-textarea" required name="Message" id="message-242" placeholder="Hello, I’m interested in..."></textarea>
+            </label>
+            <button class="cs-button-solid cs-submit" type="submit">Submit Message Now</button>
+        </form>
+        <!-- Contact Info -->
+        <div class="cs-right-section">
+            <ul class="cs-ul">
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/mail.svg" alt="mail icon" class="cs-icon" width="36" height="36" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Email</span>
+                        <a href="mailto:support@yourdomain.com" class="cs-link">happyhut@bigpond.com</a>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/phone.svg" alt="phone icon" class="cs-icon" width="36" height="36" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Phone</span>
+                        <a href="tel:206-987-6543" class="cs-link">03 8390 4212</a>
+                    </div>
+                </li>
+                <li class="cs-li">
+                    <picture class="cs-icon-wrapper">
+                        <img aria-hidden="true" src="https://csimg.nyc3.digitaloceanspaces.com/Contact-Page/pin.svg" alt="address icon" class="cs-icon" width="36" height="36" decoding="async">
+                    </picture>
+                    <div class="cs-flex-group">
+                        <span class="cs-header">Address</span>
+                        <a href="" class="cs-link"><span class="cs-block">85-87 Oakwood Rd, Albanvale, </span> VIC, Australia</a>
+                    </div>
+                </li>
+            </ul>
+            <!-- Picture -->
+            <picture class="cs-picture">
+                <source media="(max-width: 600px)" srcset="./img/map.png">
+                <source media="(min-width: 601px)" srcset="./img/map.png">
+                <img class="cs-img" aria-hidden="true" loading="lazy" decoding="async" src="./img/map.png" alt="google map" width="462" height="438">
+            </picture>
+        </div>
+    </div>
+</section>
+
+<!-- Back to Top Button -->
+<button id="back-to-top" aria-label="Back to top">
+    ↑ Back to Top
+</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
